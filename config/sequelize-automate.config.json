@@ -1,0 +1,17 @@
+{
+  "dbOptions": {
+    "database": "adi-code-backend",
+    "username": "root",
+    "password": "Code00",
+    "dialect": "mysql",
+    "host": "127.0.0.1",
+    "port": 3310,
+    "logging": false
+  },
+  "options": {
+    "type": "js",
+    "camelCase": true,
+    "dir": "models",
+    "skipTables": [ "sequelizemeta" ]
+  }
+}

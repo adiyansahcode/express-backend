@@ -1,0 +1,34 @@
+{
+  "name": "express-3",
+  "version": "1.0.0",
+  "private": true,
+  "description": "express-3",
+  "author": "adiyansahcode",
+  "license": "ISC",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "semistandard --verbose | snazzy && file.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "moment": "^2.26.0",
+    "morgan": "~1.9.1",
+    "mysql2": "^2.1.0",
+    "rotating-file-stream": "^2.1.1",
+    "sequelize": "^5.21.11",
+    "sequelize-automate": "^1.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^6",
+    "eslint-config-semistandard": "^15",
+    "eslint-config-standard": "^13",
+    "eslint-plugin-html": "^6",
+    "eslint-plugin-import": "^2",
+    "eslint-plugin-node": "^9",
+    "eslint-plugin-promise": "^4",
+    "eslint-plugin-standard": "^4",
+    "semistandard": "*"
+  }
+}

@@ -1,0 +1,13 @@
+express-backend.code-workspace
+package-lock.json
+backup
+note.txt
+/.vscode
+/node_modules/
+/logs/*
+/public/files/*
+/public/img/*
+/public/temp/*
+!/public/files/.gitkeep
+!/public/img/.gitkeep
+!/public/temp/.gitkeep
